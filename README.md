@@ -11,7 +11,7 @@ Os testes automatizados cobrem as seguintes funcionalidades:
 
 2. Página de Carreiras:
 - Navegação até a página de carreiras.
-- Verificação da presença dos elementos esperados, como vagas disponíveis e botão de inscrição.
+- Verificação da presença dos elementos esperados, como o texto "Acesse as vagas e se inscreva pelo link abaixo." e o botão para acesso as vagas.
 
  
 ## Como baixar o projeto
