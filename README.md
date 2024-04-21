@@ -7,7 +7,7 @@ Os testes automatizados cobrem as seguintes funcionalidades:
 
 1. Formulário de Contato:
 - Validação dos campos obrigatórios.
-- Verificação da mensagem de erro ao tentar enviar o formulário com campos obrigatórios vazios
+- Verificação da mensagem de erro ao tentar enviar o formulário com campos obrigatórios vazio.
 
 2. Página de Carreiras:
 - Navegação até a página de carreiras.
@@ -55,7 +55,7 @@ Após realizar o procedimento anterior você pode escolher entre duas maneiras d
 
 Para executar os testes no modo headless (sem interface gráfica), use o seguinte comando na raiz do projeto:
 
-     npx cypress run
+    npx cypress run
 
 
 Este comando iniciará a execução dos testes automatizados usando o Cypress no modo headless. Os resultados serão exibidos no console.
@@ -64,8 +64,16 @@ Este comando iniciará a execução dos testes automatizados usando o Cypress no
 
 Para executar os testes no modo interativo (com interface gráfica), use o seguinte comando na raiz do projeto:
 
-     npx cypress open
+    npx cypress open
 
 
 Esse comando abrirá o Cypress Test Runner, onde será possivel interagir com os testes em tempo real, verificar os resultados detalhados e depurar os testes conforme necessário.
 
+#### Visualizando as Specs
+
+Ao executar o comando npx cypress open, o Cypress Test Runner será aberto, e você verá uma lista de specs disponíveis para execução. As specs são arquivos de feature Cucumber que contêm os cenários de teste para diferentes partes do website da Zitrus.
+
+#### Selecionando e Executando os Testes
+Para executar os testes, basta clicar na spec desejada no Cypress Test Runner. Isso iniciará a execução dos cenários de teste definidos nessa spec, e você poderá acompanhar o progresso e os resultados diretamente na interface do Test Runner.
+- Page_Carreira.feature
+- Page_Contato.feature
