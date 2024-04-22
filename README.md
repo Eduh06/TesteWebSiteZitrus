@@ -11,7 +11,7 @@ Os testes automatizados cobrem as seguintes funcionalidades:
 
 2. Página de Carreiras:
 - Navegação até a página de carreiras.
-- Verificação da presença dos elementos esperados, como o texto "Acesse as vagas e se inscreva pelo link abaixo." e o botão para acesso as vagas.
+- Verificação da presença dos elementos esperados, como o texto "Acesse as vagas e se inscreva pelo link abaixo." e o botão para acesso às vagas.
 
  
 ## Como baixar o projeto
@@ -40,7 +40,7 @@ Certifique-se de ter o Cypress e o Node.js instalados no seu ambiente de desenvo
 
 ##### Navegue até o diretório do projeto 
 
-cd TesteWebSiteZitrus
+    cd TesteWebSiteZitrus
 
 ##### Execute o comando:
 
