@@ -106,3 +106,4 @@ Ao executar o comando npx cypress open, o Cypress Test Runner será aberto, e vo
 Para executar os testes, basta clicar na spec desejada no Cypress Test Runner. Isso iniciará a execução dos cenários de teste definidos nessa spec, e você poderá acompanhar o progresso e os resultados diretamente na interface do Test Runner.
 - Page_Carreira.feature
 - Page_Contato.feature
+- Page_Home.feature
