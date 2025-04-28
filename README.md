@@ -1,19 +1,48 @@
-# Teste Automatizado com Cypress no Website da Zitrus
+# Teste Automatizado com Cypress no Website da Nexdom
 
-Este projeto contém testes automatizados desenvolvidos com o Cypress e Cucumber para garantir o correto funcionamento das funcionalidades do website da Zitrus.
+Este projeto contém testes automatizados desenvolvidos com o Cypress e Cucumber para garantir o correto funcionamento das funcionalidades do website da Nexdom.
 
-##### Funcionalidades Testadas
-Os testes automatizados cobrem as seguintes funcionalidades:
+## Funcionalidades Testadas
 
-1. Formulário de Contato:
-- Validação dos campos obrigatórios.
-- Verificação da mensagem de erro ao tentar enviar o formulário com campos obrigatórios vazio.
+### Etapa 1 - Primeiros Testes
 
-2. Página de Carreiras:
-- Navegação até a página de carreiras.
-- Verificação da presença dos elementos esperados, como o texto "Acesse as vagas e se inscreva pelo link abaixo." e o botão para acesso às vagas.
+- **Página de Contato:**
+  - Validação dos campos obrigatórios.
+  - Verificação da mensagem de erro ao tentar enviar o formulário com campos obrigatórios vazios.
 
+- **Página de Carreiras:**
+
+  - Navegação até a página de carreiras.
+  - Verificação da presença dos elementos esperados, como o texto "Acesse as vagas e se inscreva pelo link abaixo." e o botão para acesso às vagas.
+
+
+### Etapa 2 - Aumento de Cenários e Melhorias de Testes
+
+- **Página de Contato:**
+    - Validação do formato do Email
  
+- **Página Home:**
+    - Validação da presença dos menus de navegação
+    - Validação do redirecionamento do botão "Saiba Mais" para a tela conheça nossa história
+
+### Etapa 3 - Próxima etapa a ser desenvolvida
+
+- **Página Home:**
+    - Validação do redirecionamento para a página Gestão de Planos de Saúde
+    - Validação do redirecionamento para a página Autorização e Atendimento
+    - Validação do redirecionamento para a página Ressarcimento ao SUS
+    - Validação do redirecionamento para a página Portal da Empresa e Beneficiário
+    - Validação do redirecionamento para a página Gestão de Relacionamento e Ouvidoria
+    - Validação do redirecionamento para a página DataHealth
+
+- **Página de Contato:**
+    - Validação do Envio do formulário e mensagem de sucesso
+    - Validação do redirecionamento do botão "Carreiras" para a página da Gupy
+
+- **Página de Carreiras:**
+    - Validação do redirecionamento para a página da Gupy
+    - Validação do redirecionamento para a página aviso de privacidade
+
 ## Como baixar o projeto
 
 Para baixar o projeto, siga estas etapas:
